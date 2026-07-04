@@ -1,11 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sangam-e-Hind Party</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f5f5f5;color:#222}
+header{
+background:#0b7a32;
+color:white;
+padding:20px;
+text-align:center;
+}
+nav{
+background:#055a24;
+padding:12px;
+text-align:center;
+}
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+.hero{
+padding:70px 20px;
+text-align:center;
+background:linear-gradient(to right,#0b7a32,#1fa44a);
+color:white;
+}
+.hero h1{font-size:40px}
+.hero p{margin-top:15px;font-size:18px}
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 24px;
+background:white;
+color:#0b7a32;
+font-weight:bold;
+border-radius:6px;
+text-decoration:none;
+}
+.section{
+padding:50px 20px;
+max-width:1000px;
+margin:auto;
+}
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+margin-bottom:20px;
+}
+input, textarea{
+width:100%;
+padding:12px;
+margin-top:10px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+button{
+background:#0b7a32;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:6px;
+font-size:16px;
+}
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
 </head>
 <body>
+
+<header>
 <h1>Sangam-e-Hind Party</h1>
-<h2>Rashtrapati Adhyaksh Faiz Ali</h2>
-<p>Website successfully working.</p>
+<p>Ekta • Insaf • Taraqqi</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#join">Join</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Welcome to Sangam-e-Hind Party</h1>
+<p>Awam ki awaaz, insaf ka mission</p>
+<a class="btn" href="#join">Join Now</a>
+</section>
+
+<section class="section" id="about">
+<div class="card">
+<h2>About Party</h2>
+<br>
+<p>
+Sangam-e-Hind Party ka maqsad har tabqe ke logon ko insaf,
+barabari aur behtar mustaqbil dena hai.
+</p>
+</div>
+</section>
+
+<section class="section" id="join">
+<div class="card">
+<h2>Membership Form</h2>
+<br>
+<form>
+<input type="text" placeholder="Full Name">
+<input type="tel" placeholder="Mobile Number">
+<input type="text" placeholder="City / Area">
+<textarea placeholder="Message"></textarea>
+<button type="submit">Submit</button>
+</form>
+</div>
+</section>
+
+<section class="section" id="contact">
+<div class="card">
+<h2>Contact Us</h2>
+<br>
+<p>📞 +91 XXXXXXXXXX</p>
+<p>📧 sangamehindparty@gmail.com</p>
+<p>📍 Deoband, Saharanpur, Uttar Pradesh</p>
+</div>
+</section>
+
+<footer>
+© 2026 Sangam-e-Hind Party | All Rights Reserved
+</footer>
+
 </body>
 </html>
