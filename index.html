@@ -5,73 +5,85 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sangam-e-Hind Party</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#f5f5f5;color:#222}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial;background:#f5f5f5;}
 header{
-background:#0b7a32;
-color:white;
+background:linear-gradient(90deg,#ff7b00,#ffffff,#0a8f2f);
 padding:20px;
 text-align:center;
 }
+header h1{font-size:42px;color:#000;}
+header p{font-size:22px;font-weight:bold;}
 nav{
-background:#055a24;
-padding:12px;
+background:#0a8f2f;
+padding:15px;
 text-align:center;
 }
 nav a{
 color:white;
-margin:15px;
 text-decoration:none;
+margin:15px;
+font-size:20px;
 font-weight:bold;
 }
 .hero{
 padding:70px 20px;
 text-align:center;
-background:linear-gradient(to right,#0b7a32,#1fa44a);
+background:linear-gradient(to right,#ff7b00,#0a8f2f);
 color:white;
 }
-.hero h1{font-size:40px}
-.hero p{margin-top:15px;font-size:18px}
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 24px;
-background:white;
-color:#0b7a32;
-font-weight:bold;
-border-radius:6px;
-text-decoration:none;
+.hero h2{
+font-size:55px;
+margin-bottom:20px;
 }
-.section{
-padding:50px 20px;
-max-width:1000px;
+.hero p{
+font-size:24px;
+margin-bottom:20px;
+}
+.btn{
+padding:15px 30px;
+background:white;
+color:#0a8f2f;
+font-size:20px;
+font-weight:bold;
+border:none;
+border-radius:8px;
+}
+section{
+padding:40px 20px;
+max-width:1100px;
 margin:auto;
 }
 .card{
 background:white;
-padding:25px;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+margin-bottom:25px;
+}
+img{
+max-width:100%;
 border-radius:12px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
-margin-bottom:20px;
+margin-top:15px;
 }
 input, textarea{
 width:100%;
-padding:12px;
+padding:15px;
 margin-top:10px;
 margin-bottom:15px;
 border:1px solid #ccc;
-border-radius:6px;
+border-radius:8px;
 }
 button{
-background:#0b7a32;
+background:#0a8f2f;
 color:white;
-padding:12px 20px;
+padding:15px 25px;
 border:none;
-border-radius:6px;
-font-size:16px;
+border-radius:8px;
+font-size:18px;
 }
 footer{
-background:#111;
+background:black;
 color:white;
 text-align:center;
 padding:20px;
@@ -92,44 +104,47 @@ padding:20px;
 <a href="#contact">Contact</a>
 </nav>
 
-<section class="hero">
-<h1>Welcome to Sangam-e-Hind Party</h1>
-<p>Awam ki awaaz, insaf ka mission</p>
-<a class="btn" href="#join">Join Now</a>
-</section>
+<div class="hero">
+<h2>Welcome to Sangam-e-Hind Party</h2>
+<p>Dil Se Dil Milega, Tabhi To Desh Badlega</p>
+<button class="btn">Join Now</button>
+</div>
 
-<section class="section" id="about">
+<section id="about">
 <div class="card">
 <h2>About Party</h2>
-<br>
-<p>
-Sangam-e-Hind Party ka maqsad har tabqe ke logon ko insaf,
-barabari aur behtar mustaqbil dena hai.
+<p style="margin-top:15px;font-size:22px;">
+Sangam-e-Hind Party ka maqsad har tabqe ke logon ko insaf, barabari aur behtar mustaqbil dena hai.
 </p>
 </div>
 </section>
 
-<section class="section" id="join">
+<section id="join">
 <div class="card">
 <h2>Membership Form</h2>
-<br>
-<form>
-<input type="text" placeholder="Full Name">
-<input type="tel" placeholder="Mobile Number">
-<input type="text" placeholder="City / Area">
+<input placeholder="Full Name">
+<input placeholder="Mobile Number">
+<input placeholder="City / Area">
 <textarea placeholder="Message"></textarea>
-<button type="submit">Submit</button>
-</form>
+<button>Submit</button>
 </div>
 </section>
 
-<section class="section" id="contact">
+<section id="contact">
 <div class="card">
 <h2>Contact Us</h2>
-<br>
-<p>📞 +91 XXXXXXXXXX</p>
-<p>📧 sangamehindparty@gmail.com</p>
-<p>📍 Deoband, Saharanpur, Uttar Pradesh</p>
+<p style="font-size:24px; margin-top:15px;">
+📞 +91 9781969424
+</p>
+<p style="font-size:24px;">
+📧 sangamehindparty@gmail.com
+</p>
+<p style="font-size:24px;">
+📍 Deoband, Saharanpur, Uttar Pradesh
+</p>
+<p style="font-size:24px; margin-top:20px;">
+Instagram / Facebook / YouTube / X: @sangamehindparty
+</p>
 </div>
 </section>
 
